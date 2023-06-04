@@ -1,5 +1,7 @@
-// Chain of Responsibility (ContactLogger)
+package utilities.logging;
+
 public abstract class ContactLogger {
+
   protected LogLevel level;
   protected ContactLogger nextLogger;
 

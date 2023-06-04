@@ -1,4 +1,5 @@
-// Contact class
+package domain;
+
 public class Contact implements Comparable<Contact>{
   private String name;
   private String phoneNumber;
@@ -34,13 +35,9 @@ public class Contact implements Comparable<Contact>{
     this.email = email;
   }
 
-  // Getters and setters
-
-  // Other methods related to the contact
-
   @Override
   public String toString() {
-    return "Contact [name=" + name + ", phoneNumber=" + phoneNumber + ", email=" + email + "]";
+    return "domain.Contact [name=" + name + ", phoneNumber=" + phoneNumber + ", email=" + email + "]";
   }
 
   @Override

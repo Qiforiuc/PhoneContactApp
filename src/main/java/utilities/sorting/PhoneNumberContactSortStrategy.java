@@ -1,8 +1,8 @@
-package domain;
+package utilities.sorting;
 
 import domain.ContactAdapter;
 import domain.ContactAdapterImpl;
-import domain.ContactSortStrategy;
+import utilities.sorting.ContactSortStrategy;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;

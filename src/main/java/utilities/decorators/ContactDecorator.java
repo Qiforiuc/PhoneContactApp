@@ -1,6 +1,7 @@
+package utilities.decorators;
+
 import domain.ContactAdapter;
 
-// Decorator (ContactDecorator)
 public abstract class ContactDecorator implements ContactAdapter {
   protected ContactAdapter contactAdapter;
 

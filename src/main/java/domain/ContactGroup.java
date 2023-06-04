@@ -1,7 +1,8 @@
+package domain;
+
 import java.util.ArrayList;
 import java.util.List;
 
-// Composite (ContactGroup)
 public class ContactGroup implements ContactAdapter {
   private String groupName;
   private List<ContactAdapter> contacts;
@@ -26,6 +27,24 @@ public class ContactGroup implements ContactAdapter {
       contact.display();
     }
   }
+  @Override
+  public String getPhoneNumber() {
+    return "";
+  }
 
-  // Other methods related to managing contact groups
+  @Override
+  public void setGroup(ContactGroup group) {
+  }
+
+  @Override
+  public String getName() {
+    return groupName;
+  }
+
+  @Override
+  public String toString()
+  {
+    return groupName;
+  }
+
 }

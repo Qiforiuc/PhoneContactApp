@@ -1,3 +1,6 @@
+package utilities;
+
+import domain.Contact;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,5 +33,4 @@ public class PhoneBook {
     }
   }
 
-  // Other methods related to managing contacts
 }

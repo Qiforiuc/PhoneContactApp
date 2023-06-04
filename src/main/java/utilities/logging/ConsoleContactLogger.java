@@ -1,4 +1,7 @@
+package utilities.logging;
+
 public class ConsoleContactLogger extends ContactLogger {
+
   public ConsoleContactLogger(LogLevel level) {
     this.level = level;
   }

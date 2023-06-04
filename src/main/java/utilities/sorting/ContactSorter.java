@@ -1,5 +1,6 @@
+package utilities.sorting;
+
 import domain.ContactAdapter;
-import domain.ContactSortStrategy;
 import java.util.List;
 
 public class ContactSorter {

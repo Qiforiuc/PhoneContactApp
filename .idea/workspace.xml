@@ -1,14 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ad85a9f-e2cf-4070-ac0a-68645a8cf711" name="Changes" comment="" />
+    <list default="true" id="7ad85a9f-e2cf-4070-ac0a-68645a8cf711" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/PhoneContactApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/client/PhoneContactAppGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/ContactAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/ContactAdapterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/ContactGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/ContactBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/ContactFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/DefaultContactFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/decorators/ContactDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/decorators/ContactWithPhotoDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/logging/ConsoleContactLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/logging/ContactLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/logging/FileContactLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/logging/LogLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/sorting/ContactSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/sorting/ContactSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/sorting/NameContactSortStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilities/sorting/PhoneNumberContactSortStrategy.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -18,7 +59,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2QW5UKSBZ925KukMcODdlHlaVbo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,9 +69,38 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.PhoneContactAppGUI">
+    <configuration name="PhoneContactApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.PhoneContactApp" />
+      <module name="PhoneContactApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneContactAppGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.PhoneContactAppGUI" />
+      <module name="PhoneContactApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PhoneContactAppGUI" />
+        <item itemvalue="Application.PhoneContactApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

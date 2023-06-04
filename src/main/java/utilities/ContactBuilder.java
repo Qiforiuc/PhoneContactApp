@@ -1,4 +1,7 @@
-// Builder (ContactBuilder)
+package utilities;
+
+import domain.Contact;
+
 public class ContactBuilder {
   private String name;
   private String phoneNumber;

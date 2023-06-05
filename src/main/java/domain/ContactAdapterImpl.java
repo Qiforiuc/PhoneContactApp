@@ -2,7 +2,7 @@ package domain;
 
 public class ContactAdapterImpl implements ContactAdapter {
   private Contact contact;
-  private ContactGroup group; // Add a reference to the group
+  private ContactGroup group;
 
   public ContactAdapterImpl(Contact contact) {
     this.contact = contact;

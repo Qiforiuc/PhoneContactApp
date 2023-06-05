@@ -187,7 +187,6 @@ public class PhoneContactAppGUI extends JFrame {
   }
 
   public void display() {
-    // Show the GUI
     setVisible(true);
   }
 

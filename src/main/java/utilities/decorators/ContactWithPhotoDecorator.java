@@ -20,17 +20,16 @@ public class ContactWithPhotoDecorator extends ContactDecorator {
 
   @Override
   public String getPhoneNumber() {
-    // You can choose to return a default value or handle this based on your specific requirements
-    return "";
+    return this.getPhoneNumber();
   }
 
   @Override
   public void setGroup(ContactGroup group) {
+    this.setGroup(group);
   }
 
   @Override
   public String getName() {
-    return "";
+    return this.getPhoneNumber();
   }
-  // Other methods related to displaying contact with photo
 }

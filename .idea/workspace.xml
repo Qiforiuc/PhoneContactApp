@@ -7,9 +7,9 @@
     <list default="true" id="7ad85a9f-e2cf-4070-ac0a-68645a8cf711" name="Changes" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/client/PhoneContactApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/PhoneContactApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/PhoneContactAppGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/PhoneContactAppGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/domain/ContactAdapterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/ContactAdapterImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/decorators/ContactWithPhotoDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/decorators/ContactWithPhotoDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/domain/ContactGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/domain/ContactGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/logging/ContactLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/logging/ContactLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilities/logging/FileContactLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilities/logging/FileContactLogger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PhoneContactAppGUI">
+  <component name="RunManager" selected="Application.PhoneContactApp">
     <configuration name="PhoneContactApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="client.PhoneContactApp" />
       <module name="PhoneContactApp" />
@@ -74,8 +74,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PhoneContactAppGUI" />
         <item itemvalue="Application.PhoneContactApp" />
+        <item itemvalue="Application.PhoneContactAppGUI" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685888782523</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1685977048147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685977048147</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

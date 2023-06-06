@@ -1,5 +1,7 @@
 package utilities.logging;
 
+import java.io.IOException;
+
 public abstract class ContactLogger {
 
   protected LogLevel level;
@@ -9,7 +11,7 @@ public abstract class ContactLogger {
     this.nextLogger = nextLogger;
   }
 
-  public void logMessage(LogLevel level, String message) {
+  public void logMessage(LogLevel level, String message) throws IOException {
     if (this.level.equals(level)) {
       writeMessage("[" + level + "] " + message);
     } else if (nextLogger != null) {
@@ -17,5 +19,5 @@ public abstract class ContactLogger {
     }
   }
 
-  protected abstract void writeMessage(String message);
+  protected abstract void writeMessage(String message) throws IOException;
 }

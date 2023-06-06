@@ -4,7 +4,9 @@ import domain.Contact;
 import domain.ContactAdapter;
 import domain.ContactAdapterImpl;
 import domain.ContactGroup;
+import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import utilities.ContactBuilder;
 import utilities.ContactFactory;
@@ -20,13 +22,14 @@ import utilities.sorting.NameContactSortStrategy;
 import utilities.sorting.PhoneNumberContactSortStrategy;
 
 public class PhoneContactApp {
-  public static void main(String[] args) {
+  public static void main(String[] args) throws IOException, InterruptedException {
     // Chain of Responsibility
     ConsoleContactLogger consoleLogger = new ConsoleContactLogger(LogLevel.INFO);
     ContactLogger fileLogger = new FileContactLogger(LogLevel.DEBUG);
 
     consoleLogger.setNextLogger(fileLogger);
 
+    fileLogger.logMessage(LogLevel.DEBUG, "Starting app at " + new Date());
     // Singleton
     PhoneBook phoneBook = PhoneBook.getInstance();
 
@@ -90,5 +93,7 @@ public class PhoneContactApp {
       contact.display();
     }
     consoleLogger.logMessage(LogLevel.INFO, "---Strategy 2---");
+    Thread.sleep(1000);
+    fileLogger.logMessage(LogLevel.DEBUG, "Closing app at  " + new Date());
   }
 }

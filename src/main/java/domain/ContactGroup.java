@@ -29,7 +29,7 @@ public class ContactGroup implements ContactAdapter {
   }
   @Override
   public String getPhoneNumber() {
-    return "";
+    return this.getPhoneNumber();
   }
 
   @Override

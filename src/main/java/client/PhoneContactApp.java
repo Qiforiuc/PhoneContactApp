@@ -35,14 +35,14 @@ public class PhoneContactApp {
 
     // Builder
     Contact contact1 = new ContactBuilder()
-        .setName("John Doe")
-        .setPhoneNumber("1234567890")
-        .setEmail("john.doe@example.com")
+        .setName("Adrian Chiforiuc")
+        .setPhoneNumber("060256808")
+        .setEmail("chiforiucadrian@mail.com")
         .build();
 
     // Factory Method
     ContactFactory contactFactory = new DefaultContactFactory();
-    Contact contact2 = contactFactory.createContact("Jane Smith", "9876543210", "jane.smith@example.com");
+    Contact contact2 = contactFactory.createContact("Arapu Anatolie", "069030543", "arapu_anatolie@mail.com");
 
     phoneBook.addContact(contact1);
     phoneBook.addContact(contact2);
